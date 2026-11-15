@@ -2,9 +2,9 @@
 
 ## Environment and placement
 
-Environment used: Python 3.9.25, PyTorch 2.8.0+cu129, Transformers 4.57.6, TRL 0.19.0, PEFT 0.10.0, Accelerate 1.10.1, Datasets 4.5.0, DeepSpeed 0.15.4, bitsandbytes 0.48.2, OpenAI 2.8.0, editable LMFlow 1.0.0, and eight RTX 4090 GPUs (48GB).
+Environment used: Python 3.9.25, PyTorch 2.8.0+cu129, Transformers 4.57.6, TRL 0.19.0, PEFT 0.10.0, Accelerate 1.10.1, Datasets 4.5.0, DeepSpeed 0.15.4, bitsandbytes 0.48.2, OpenAI 2.8.0, LMFlow 1.0.0, and eight RTX 4090 GPUs (48GB).
 
-| File in this package | Place in the existing project |
+| Key files in this package | Place in the existing project |
 | --- | --- |
 | `generate_preference_noise.py` | `src/generate_preference_noise.py` |
 | `train_dacsdpo.py` | `src/lm_flow/train_dacsdpo.py` |
